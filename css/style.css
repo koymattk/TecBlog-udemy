@@ -1,0 +1,22 @@
+#pai{
+    text-align: center;
+    background-color: #f7b600;
+    padding: 10px;
+}  
+
+#menu > a{
+    padding: 7px;
+}
+
+#menu > a:visited, #menu > a:link{
+    color: #FFF;
+}
+#menu > a:hover{
+    color: #f7b600;
+    background-color:white;
+    
+}
+
+.branco{
+    color: white;
+}
