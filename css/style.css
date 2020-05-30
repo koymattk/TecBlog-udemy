@@ -1,15 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
 #pai{
     text-align: center;
     background-color: #f7b600;
-    padding: 10px;
+    padding: 15px;
 }  
 
+#menu, #logo{
+    padding: 10px;
+}
+
 #menu > a{
-    padding: 7px;
+    padding: 10px;
 }
 
 #menu > a:visited, #menu > a:link{
     color: #FFF;
+    text-decoration: none;
 }
 #menu > a:hover{
     color: #f7b600;
@@ -19,4 +33,9 @@
 
 .branco{
     color: white;
+}
+
+h1{
+    color: #4e4e4e;
+	font-size: 2.5em;
 }
