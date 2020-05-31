@@ -30,6 +30,10 @@ body{
     background-color:white;
     
 }
+a{
+    color: #f7b600;
+    text-decoration: none;
+}
 
 .branco{
     color: white;
@@ -38,4 +42,63 @@ body{
 h1{
     color: #4e4e4e;
 	font-size: 2.5em;
+}
+h2{
+    color: #f7b600;
+}
+
+#area-principal{
+    width: 920px;
+    margin:0 auto;
+    padding: 15px;
+}
+
+#postagens{
+    width: 660px;
+    
+    float: left;
+    
+}
+.postagens{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    font-size: 0.8em;
+    
+}
+
+#lateral{
+    width: 240px;
+    font-size: 0.8em;
+    float: right;
+    
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #CCC;
+}
+.postagem-lateral{
+    background-color: white;
+    
+    padding: 15px;
+    margin-bottom: 15px;
+    
+}
+h3{
+    padding: 7px;
+    background: #CCC;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.postagem-lateral > a{
+    display: block;
+}
+.data-postagem{
+   
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+ 
 }
